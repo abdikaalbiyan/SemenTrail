@@ -31,9 +31,9 @@
   	</style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm bg-secondary navbar-secondary fixed-top">
+	<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
 	  <!-- <a class="navbar-brand" href="#">Logo</a> -->
-		<img src="Logo Event.png" alt="Logo" width="270" height="60">
+	  <img src="image/Logo Event.png" alt="Logo" width="270" height="60">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -63,7 +63,7 @@
 	      </li>
 	    </ul>
 	  </div>
-		<img src="Logo Semen Indonesia.png" alt="Logo" width="80" height="75">
+		<img src="image/Logo Semen Indonesia.png" alt="Logo" width="80" height="75">
 	</nav>
 
 	<div id="demo" class="carousel slide" data-ride="carousel">
@@ -78,13 +78,13 @@
 	  <!-- The slideshow -->
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img src="4.jpg" alt="Los Angeles">
+	      <img src="image/4.jpg" alt="Los Angeles">
 	    </div>
 	    <div class="carousel-item">
-	      <img src="5.jpg" alt="Chicago" width="1100" height="500">
+	      <img src="image/5.jpg" alt="Chicago" width="1100" height="500">
 	    </div>
 	    <div class="carousel-item">
-	      <img src="6.jpg" alt="New York" width="1100" height="500">
+	      <img src="image/6.jpg" alt="New York" width="1100" height="500">
 	    </div>
 	  </div>
 
