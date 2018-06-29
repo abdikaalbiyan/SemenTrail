@@ -3,6 +3,7 @@
 <head>
 
   <title>Coming Soon</title>
+  <link rel="icon" href="image/logo.ico" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -39,7 +40,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('image/Foto 2.png');
+    background-image: url('image/gambar_kecil.jpg');
     min-height: 100%;
     
 }
@@ -158,7 +159,7 @@ hr {
         <span class="seconds"></span>
         <div class="smalltext">Seconds</div>
       </div>
-    </div>
+    </div> 
   </div>
 
 <!-- <script>
