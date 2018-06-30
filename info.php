@@ -10,30 +10,64 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
   	<style>
+  	body{
+  		margin-top: 150px;
+  		position: relative;
+  	}
   	.navbar{
   		padding-left: 50px;
   		padding-right: 50px;
   	}
-  	.fakeimg {
-     	height: 200px;
-     	background: #aaa;
+  	.icon{
+  		width: 4%;
+  		height: 4%;
   	}
-  	.carousel-inner img {
-      	width: 100%;
-      	height: 100%;
+  	.huruf_besar{
+  		font-size: 150%;
   	}
-  	.jam {
-	  text-align: center;
-	  font-size: 60px;
-	  margin-top:0px;
+  	.tengah_aja{
+  		text-align: center;
+  	}
+  	.tengah{
+  		/*text-align: center;
+		vertical-align: middle;*/
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		height: 150px;
+  	}
+  	.merah{
+  		background-color: #E62129;
+  		color: white;
+  	}
+  	.abu-abu{
+  		background-color: #C9CACA;
+  	}
+  	hr{
+  		margin-top: 40px;
+  		margin-bottom: 40px
+  	}
+  	.gambar_kecil{
+  		width: 100%;
+  		margin-bottom: 10px;
+  	}
+  	.gambar_footer{
+		width: 50%;
+		height: 50%;
+		margin-top: 30px;
 	}
-
+	.footerr{
+		background-color: #E62129;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
   	</style>
 </head>
-<body>
+<body data-spy="scroll" data-offset="20">
 	<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
 	  <!-- <a class="navbar-brand" href="#">Logo</a> -->
-    <img src="Logo Event.png" alt="Logo" width="270" height="60">
+    <img src="image/Logo Event.png" alt="Logo" width="270" height="60">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -47,13 +81,14 @@
 		    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
 		      Informasi Lomba
 		    </a>
-		    <div class="dropdown-menu">
-		      <a class="dropdown-item" href="#">Race Date & Venue</a>
-		      <a class="dropdown-item" href="#">Race Category</a>
-		      <a class="dropdown-item" href="#">Race Pack Collection</a>
-		      <a class="dropdown-item" href="#">Course Map</a>
-		      <a class="dropdown-item" href="#">Prize Money</a>
-		      <a class="dropdown-item" href="#">Rules & Regulation</a>
+		    <div class="dropdown-menu" id="myNavbar">
+		      <a class="dropdown-item" href="#section1">Tempat dan Tanggal</a>
+		      <a class="dropdown-item" href="#section2">Kategori Lomba</a>
+		      <a class="dropdown-item" href="#section3">Paket Lomba</a>
+		      <a class="dropdown-item" href="#section4">Pengambilan Paket Lomba</a>
+		      <a class="dropdown-item" href="#section5">Rute Lomba</a>
+		      <a class="dropdown-item" href="#section6">Hadiah Juara</a>
+		      <a class="dropdown-item" href="#section6">Peraturan dan Regulasi</a>
 		    </div>
 	      </li>
 	      <li class="nav-item">
@@ -64,43 +99,166 @@
 	      </li>
 	    </ul>
 	  </div>
-		<img src="Logo Semen Indonesia.png" alt="Logo" width="80" height="75">
+		<img src="image/Logo Semen Indonesia.png" alt="Logo" width="80" height="75">
 	</nav>
 
-	<div id="demo" class="carousel slide" data-ride="carousel">
-
-	  <!-- Indicators -->
-	  <ul class="carousel-indicators">
-	    <li data-target="#demo" data-slide-to="0" class="active"></li>
-	    <li data-target="#demo" data-slide-to="1"></li>
-	    <li data-target="#demo" data-slide-to="2"></li>
-	  </ul>
-
-
-
-	<div class="container" style="margin-top:50px; margin-bottom:50px">
-		<div class="row-center">
-
-			<div class="col-sm-6">
-        <br>
-        <b>  Tempat dan Tanggal</b>
-        <br><br>
-				 Lomba lari Semen Indonesia Trail Run 2018 akan dilaksanakan pada:<br>
-         <b>Minggu, 4 November 2018<br>Pabrik Gresik, Semen Indonesia</b><br>
-         Start kategori 21K pukul 06.00 WIB<br>
-         Start kategori 10K pukul 06.15 WIB<br>
-				<br>
-				Donec id risus finibus, iaculis odio id, faucibus enim. Morbi dui turpis, accumsan et augue condimentum, sollicitudin ultrices neque. Cras eu volutpat nisl. Curabitur nec blandit mauris. Etiam sit amet suscipit lacus, vel semper nisl. Praesent accumsan risus convallis, fringilla nulla fringilla, ullamcorper ante. Ut nisi ipsum, rutrum nec libero ut, porta varius nibh. Aenean molestie felis a orci convallis, nec imperdiet justo fermentum. Quisque ut ipsum est. Aenean ultricies blandit lacus, id facilisis diam. Maecenas volutpat sollicitudin erat, id ultrices magna fermentum eu. In congue, augue non cursus rhoncus, erat est varius nisi, et dictum justo sem at neque.
-				<br>
-				Fusce semper mattis leo, ac convallis nisi consequat id. Vivamus dapibus pellentesque sapien, sed vestibulum nisl. Donec finibus blandit lectus tristique eleifend. Sed mattis mauris ligula, mollis suscipit neque euismod vel. Phasellus tincidunt rhoncus ex, eu dictum lectus euismod in. Aliquam erat volutpat. Aenean congue consectetur velit, ac dignissim diam cursus sit amet. Ut vel imperdiet eros. Nam ipsum enim, aliquam varius magna sit amet, ultrices faucibus quam. Etiam eu consectetur augue. Etiam gravida magna sit amet tellus placerat, id venenatis odio euismod. Donec eu malesuada arcu. Fusce non mollis felis, nec egestas massa. In in diam ex.
+	  <div class="container" style="margin-bottom:50px">
+	  	<ul style="list-style-image: url('image/icon_kecil.png')">
+		  <li id="section1">
+		  	<h4><b>TEMPAT DAN TANGGAL</b></h4>
+		  	Lomba lari Semen Indonesia Trail Run 2018 akan dilaksanakan pada :<br>
+		  	<b>Minggu, 4 November 2018</b><br>
+		  	<b>Pabrik Gresik, Semen Indonesia</b><br>
+		  	Start kategori <b>21K</b> pukul 06.00 WIB<br>
+		  	Start kategori <b>10K</b> pukul 06.15 WIB<br>
+		  </li>
+		  <hr>
+		  <li id="section2">
+		  	<h4><b>KATEGORI LOMBA</b></h4>
+		  	<div class="row">
+			  <div class="col-sm-6">
+			  	<div class="row" style="padding: 10px;">
+			  		<div class="col-sm-6 merah tengah tengah_aja"">
+			  			<h1><b>21K</b></h1>
+			  			<b>Biaya Pendaftaran</b>
+			  			<b>IDR 200.000</b>
+			  		</div>
+			  		<div class="col-sm-6 abu-abu tengah">
+			  			<b>KATEGORI TERBUKA</b>
+			  			Pendaftaran berlaku untuk Warga Negara Indonesia dan Warga Negara Asing yang memiliki KITAS
+			  		</div>
+			  	</div>
+			  </div>
+			  <div class="col-sm-6">
+			  	<div class="row" style="padding: 10px;">
+			  		<div class="col-sm-6 merah tengah tengah_aja">
+			  			<h1><b>10K</b></h1>
+			  			<b>Biaya Pendaftaran</b>
+			  			<b>IDR 150.000</b>
+			  		</div>
+			  		<div class="col-sm-6 abu-abu tengah">
+			  			<b>KATEGORI TERTUTUP</b>
+			  			Pendaftaran berlaku hanya untuk Warga Negara Indonesia
+			  		</div>
+			  	</div>
+			  </div>
 			</div>
-		</div>
+		  </li>
+		  <hr>
+		  <li id="section3">
+		  	<h4><b>PAKET LOMBA</b></h4>
+		  	<div class="row" style="padding-top: 20px; padding-bottom: 20px">
+		  		<div class="col-sm-2 tengah_aja">
+		  			<img src="image/RPC1.png" class="gambar_kecil">
+		  			KAOS LOMBA
+		  		</div>
+		  		<div class="col-sm-2 tengah_aja">
+		  			<img src="image/RPC2.png" class="gambar_kecil">
+		  			NOMOR BIB
+		  		</div>
+		  		<div class="col-sm-2 tengah_aja">
+		  			<img src="image/RPC3.png" class="gambar_kecil">
+		  			TAS
+		  		</div>
+		  		<div class="col-sm-2 tengah_aja">
+		  			<img src="image/RPC4.png" class="gambar_kecil">
+		  			MEDALI PENAMAT
+		  		</div>
+		  		<div class="col-sm-2 tengah_aja">
+		  			<img src="image/RPC5.png" class="gambar_kecil">
+		  			KAOS PENAMAT <i>Khusus 21K</i>
+		  		</div>
+		  		<div class="col-sm-2 tengah_aja">
+		  			MINUM DAN MAKAN
+		  		</div>
+		  	</div>
+		  </li>
+		  <hr>
+		  <li id="section4">
+		  	<h4><b>PENGAMBILAN PAKET LOMBA</b></h4>
+		  	Pengambilan paket loma Semen Indonesia Trail Run 2018 akan dilaksanakan pada :<br>
+		  	<b>Jumat, 2 November 2018 pukul 14.00 - 20.00 WIB</b><br>
+		  	<b>Hotel Pessona Gresik</b><br>
+		  	<b>Sabtu, 3 November 2018 pukul 10.00 - 17.00 WIB</b><br>
+		  	<b>Hotel Pessona Gresik</b><br>
+		  </li>
+		  <hr>
+		  <li id="section5">
+		  	<h4><b>RUTE LOMBA</b></h4>
+		  	Rute lomba lari Semen Indonesia Trail Run 2018 akan melewati kawasan pasca tambang yang meliputi kawasan bebatuan, bukit kapur, tanah yang menampilkan pemandangan dan pengalaman berlari yang berbeda.
+		  </li>
+		  <hr>
+		  <li id="section6">
+		  	<h4><b>HADIAH JUARA</b></h4>
+		  	<div class="row" style="padding-top: 20px; padding-bottom: 20px">
+		  		<div class="col-sm-6">
+		  			<b>Kategori 21K Terbuka Pria dan Wanita masing-masing akan mendapatkan :</b><br>
+		  			Juara 1 &nbsp;&nbsp; IDR 20.000.000<br>
+		  			Juara 2 &nbsp;&nbsp; IDR 15.000.000<br>
+		  			Juara 3 &nbsp;&nbsp; IDR 10.000.000<br>
+		  			Juara 4 &nbsp;&nbsp; IDR 7.000.000<br>
+		  			Juara 5 &nbsp;&nbsp; IDR 5.000.000<br>
+		  		</div>
+		  		<div class="col-sm-6">
+		  			<b>Kategori 10K Tertutup Pria dan Wanita masing-masing akan mendapatkan :</b><br>
+		  			Juara 1 &nbsp;&nbsp; IDR 10.000.000<br>
+		  			Juara 2 &nbsp;&nbsp; IDR 7.500.000<br>
+		  			Juara 3 &nbsp;&nbsp; IDR 5.000.000<br>
+		  			Juara 4 &nbsp;&nbsp; IDR 3.000.000<br>
+		  			Juara 5 &nbsp;&nbsp; IDR 2.000.000<br>
+		  		</div>
+		  	</div>
+		  </li>
+		  <hr>
+		  <li id="section6">
+		  	<h4><b>PERATURAN DAN REGULASI</b></h4>
+		  	Untuk Peraturan dan Regulasi lomba lari Semen Indonesia Trail Run 2018, silhkan mengunduh lewat tautan dibawah ini :<br>
+		  	<button type="button" class="btn btn-secondary">Unduh</button>
+		  </li>
+		</ul>
+	  </div>
+
+	<div>
+		<img src="image/Footer1.png" class="gambar_footer">
 	</div>
 
-	<div class="jumbotron text-center" style="margin-bottom:0; background-color: red">
-	  <p>Copyright</p>
-	</div>
+	<div class="footer-copyright py-3 footerr">
+		© 2018 Copyright:
+		<div style="float:right;">
+			<img src="image/facebook.png"> <img src="image/instagram.png">
+		</div>
+    </div>
 
 
 </body>
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+
 </html>

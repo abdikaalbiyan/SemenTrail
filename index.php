@@ -51,20 +51,25 @@
 	#clockdiv > div{
 	    padding: 10px;
 	    border-radius: 3px;
-	    background: #E62129;
+	    background: #8B8B8C;
 	    display: inline-block;
 	}
 
 	#clockdiv div > span{
 	    padding: 15px;
 	    border-radius: 3px;
-	    background: #E62129;
+	    /*background: #E62129;*/
+	    background : #2A2627;
 	    display: inline-block;
 	}
 
 	.smalltext{
 	    padding-top: 5px;
 	    font-size: 16px;
+	}
+	.tengah{
+		margin: 0 auto;
+    	display: table;
 	}
 
   	</style>
@@ -87,11 +92,13 @@
 		      Informasi Lomba
 		    </a>
 		    <div class="dropdown-menu">
-		      <a class="dropdown-item" href="info.php">Lokasi Lomba dan Tanggal</a>
+		      <a class="dropdown-item" href="info.php">Tempat dan Tanggal</a>
 		      <a class="dropdown-item" href="#">Kategori Lomba</a>
+		      <a class="dropdown-item" href="#">Paket Lomba</a>
 		      <a class="dropdown-item" href="#">Pengambilan Paket Lomba</a>
-		      <a class="dropdown-item" href="#">Hadiah</a>
-		      <a class="dropdown-item" href="#">Regulasi dan Pengaturan</a>
+		      <a class="dropdown-item" href="#">Rute</a>
+		      <a class="dropdown-item" href="#">Hadiah Juara</a>
+		      <a class="dropdown-item" href="#">Peraturan dan Regulasi</a>
 		    </div>
 	      </li>
 	      <li class="nav-item">
@@ -116,6 +123,10 @@
 
 	  <!-- The slideshow -->
 	  <div class="carousel-inner">
+	  	<div class="carousel-caption">
+		  <h3>Semen Indonesia Trail Run</h3>
+		  <p>Let's join us !</p>
+		</div>
 	    <div class="carousel-item active">
 	      <img src="image/Foto 1.png" alt="Los Angeles">
 	    </div>
@@ -137,10 +148,10 @@
 	</div>
 
 	<!-- Jam -->
-	<div class="container center" style="margin-top:50px; margin-bottom:50px">
-		<p class="jam" id="jam"></p>
-	</div>
 	<!-- <div class="container center" style="margin-top:50px; margin-bottom:50px">
+		<p class="jam" id="jam"></p>
+	</div> -->
+	<div class="tengah" style="margin-top:50px; margin-bottom:50px">
 	<div id="clockdiv">
 	    <div>
 	      <span class="days"></span>
@@ -159,13 +170,13 @@
 	      <div class="smalltext">Seconds</div>
 	    </div>
 	</div>
-	</div> -->
+	</div>
 
 	<div class="container" style="margin-top:50px; margin-bottom:50px">
 		<div class="row">
 			<div class="col-sm-6">
-				<iframe class="embed-responsive-item" width="100%" height="325" src="https://www.youtube.com/embed/X2c31OLaPOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<div class="center" width="100%">
+				<iframe class="embed-responsive-item" width="100%" height="325" src="https://www.youtube.com/embed/X2c31OLaPOM" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+				<div style="margin-top: 30px">
 					<img src="image/Logo Semen Indonesia.png" style="width: 50%; height: 50%; display: block; margin: auto;">
 				</div>
 				
@@ -224,7 +235,7 @@
 
 	<script>
 	   function getTimeRemaining() {
-	    var countDownDate = new Date("Jul 1, 2018 00:00:01").getTime();
+	    var countDownDate = new Date("Jul 20, 2018 00:00:01").getTime();
 	    var now = new Date().getTime();
 	      var t = countDownDate - now;
 	      var seconds = Math.floor((t / 1000) % 60);
