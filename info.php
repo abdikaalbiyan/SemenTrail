@@ -92,10 +92,10 @@
 		    </div>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Pendaftaran</a>
+	        <a class="nav-link" href="pendaftaran.php">Pendaftaran</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Tentang Kami &nbsp &nbsp</a>
+	        <a class="nav-link" href="tentang.php">Tentang Kami &nbsp &nbsp</a>
 	      </li>
 	    </ul>
 	  </div>
