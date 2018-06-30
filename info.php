@@ -148,27 +148,27 @@
 		  <li id="section3">
 		  	<h4><b>PAKET LOMBA</b></h4>
 		  	<div class="row" style="padding-top: 20px; padding-bottom: 20px">
-		  		<div class="col-sm-2 tengah_aja">
+		  		<div class="col-sm-2 tengah_aja" style="margin-bottom: 20px;">
 		  			<img src="image/RPC1.png" class="gambar_kecil">
 		  			KAOS LOMBA
 		  		</div>
-		  		<div class="col-sm-2 tengah_aja">
+		  		<div class="col-sm-2 tengah_aja" style="margin-bottom: 20px;">
 		  			<img src="image/RPC2.png" class="gambar_kecil">
 		  			NOMOR BIB
 		  		</div>
-		  		<div class="col-sm-2 tengah_aja">
+		  		<div class="col-sm-2 tengah_aja" style="margin-bottom: 20px;">
 		  			<img src="image/RPC3.png" class="gambar_kecil">
 		  			TAS
 		  		</div>
-		  		<div class="col-sm-2 tengah_aja">
+		  		<div class="col-sm-2 tengah_aja" style="margin-bottom: 20px;">
 		  			<img src="image/RPC4.png" class="gambar_kecil">
 		  			MEDALI PENAMAT
 		  		</div>
-		  		<div class="col-sm-2 tengah_aja">
+		  		<div class="col-sm-2 tengah_aja" style="margin-bottom: 20px;">
 		  			<img src="image/RPC5.png" class="gambar_kecil">
 		  			KAOS PENAMAT <i>Khusus 21K</i>
 		  		</div>
-		  		<div class="col-sm-2 tengah_aja">
+		  		<div class="col-sm-2 tengah_aja" style="margin-bottom: 20px;">
 		  			MINUM DAN MAKAN
 		  		</div>
 		  	</div>
@@ -191,7 +191,7 @@
 		  <li id="section6">
 		  	<h4><b>HADIAH JUARA</b></h4>
 		  	<div class="row" style="padding-top: 20px; padding-bottom: 20px">
-		  		<div class="col-sm-6">
+		  		<div class="col-sm-6" style="margin-bottom: 20px;">
 		  			<b>Kategori 21K Terbuka Pria dan Wanita masing-masing akan mendapatkan :</b><br>
 		  			Juara 1 &nbsp;&nbsp; IDR 20.000.000<br>
 		  			Juara 2 &nbsp;&nbsp; IDR 15.000.000<br>
@@ -199,7 +199,7 @@
 		  			Juara 4 &nbsp;&nbsp; IDR 7.000.000<br>
 		  			Juara 5 &nbsp;&nbsp; IDR 5.000.000<br>
 		  		</div>
-		  		<div class="col-sm-6">
+		  		<div class="col-sm-6" style="margin-bottom: 20px;">
 		  			<b>Kategori 10K Tertutup Pria dan Wanita masing-masing akan mendapatkan :</b><br>
 		  			Juara 1 &nbsp;&nbsp; IDR 10.000.000<br>
 		  			Juara 2 &nbsp;&nbsp; IDR 7.500.000<br>
